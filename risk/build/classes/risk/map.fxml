@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.effect.Bloom?>
+<?import javafx.scene.effect.ColorAdjust?>
+<?import javafx.scene.effect.Glow?>
+<?import javafx.scene.effect.InnerShadow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="800.0" prefWidth="1300.0" style="-fx-background-color: #19001A;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="risk.MapController">
+   <children>
+      <ImageView fitHeight="800.0" fitWidth="1300.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../assets2/linesglow2.png" />
+         </image>
+         <effect>
+            <InnerShadow choke="0.84" color="#1e1d1d" height="10.69" radius="2.9499999999999997" width="3.11" />
+         </effect>
+      </ImageView>
+      <ImageView fx:id="april_id" fitHeight="134.0" fitWidth="223.0" layoutX="53.0" layoutY="248.0" onMouseClicked="#aprilClicked" onMouseEntered="#changeAprilStyle" onMouseExited="#returnAprilStyle" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../assets2/april.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="august_id" fitHeight="180.0" fitWidth="140.0" layoutX="234.0" layoutY="81.0" onMouseClicked="#augustClicked" onMouseEntered="#changeAugustStyle" onMouseExited="#returnAugustStyle" pickOnBounds="true" preserveRatio="true" rotate="88.1">
+         <image>
+            <Image url="@../assets2/august.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="dec_id" fitHeight="150.0" fitWidth="200.0" layoutX="406.0" layoutY="14.0" onMouseClicked="#decClicked" onMouseEntered="#changeDecStyle" onMouseExited="#returnDecStyle" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../assets2/dec.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="feb_id" fitHeight="150.0" fitWidth="200.0" layoutX="639.0" layoutY="9.0" onMouseClicked="#febClicked" onMouseEntered="#changeFebStyle" onMouseExited="#returnFebStyle" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../assets2/feb.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="fri_id" fitHeight="150.0" fitWidth="200.0" layoutX="836.0" layoutY="21.0" onMouseClicked="#friClicked" onMouseEntered="#changeFriStyle" onMouseExited="#returnFriStyle" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../assets2/fri.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="jan_id" fitHeight="150.0" fitWidth="200.0" layoutX="1017.0" layoutY="123.0" onMouseClicked="#janClicked" onMouseEntered="#changeJanStyle" onMouseExited="#returnJanStyle" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../assets2/jan.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="july_id" fitHeight="131.0" fitWidth="223.0" layoutX="458.0" layoutY="176.0" onMouseClicked="#julyClicked" onMouseEntered="#changeJulyStyle" onMouseExited="#returnJulyStyle" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../assets2/july.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="june_id" fitHeight="150.0" fitWidth="200.0" layoutX="252.0" layoutY="316.0" onMouseClicked="#julyClicked" onMouseEntered="#changeJuneStyle" onMouseExited="#returnJuneStyle" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../assets2/june.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="mars_id" fitHeight="190.0" fitWidth="184.0" layoutX="1081.0" layoutY="297.0" onMouseClicked="#marsClicked" onMouseEntered="#changeMarsStyle" onMouseExited="#returnMarsStyle" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../assets2/mars.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="may_id" fitHeight="150.0" fitWidth="200.0" layoutX="135.0" layoutY="449.0" onMouseClicked="#mayClicked" onMouseEntered="#changeMayStyle" onMouseExited="#returnMayStyle" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../assets2/may.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="mon_id" fitHeight="200.0" fitWidth="200.0" layoutX="290.0" layoutY="499.0" onMouseClicked="#monClicked" onMouseEntered="#changeMonStyle" onMouseExited="#returnMonStyle" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../assets2/mon.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="sun_id" fitHeight="121.0" fitWidth="126.0" layoutX="488.0" layoutY="315.0" onMouseClicked="#sunClicked" onMouseEntered="#changeSuntyle" onMouseExited="#returnSunStyle" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../assets2/sun.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="tue_id" fitHeight="150.0" fitWidth="200.0" layoutX="531.0" layoutY="549.0" onMouseClicked="#tueClicked" onMouseEntered="#changeTueStyle" onMouseExited="#returnTueStyle" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../assets2/tue.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="sat_id" fitHeight="163.0" fitWidth="165.0" layoutX="675.0" layoutY="204.0" onMouseClicked="#satClicked" onMouseEntered="#changeSatStyle" onMouseExited="#returnSatStyle" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../assets2/sat.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="nov_id" fitHeight="172.0" fitWidth="172.0" layoutX="629.0" layoutY="375.0" onMouseClicked="#novClicked" onMouseEntered="#changeNovStyle" onMouseExited="#returnNovStyle" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../assets2/nov.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="oct_id" fitHeight="150.0" fitWidth="200.0" layoutX="929.0" layoutY="518.0" onMouseClicked="#octClicked" onMouseEntered="#changeOctStyle" onMouseExited="#returnOctStyle" pickOnBounds="true" preserveRatio="true" rotate="-82.4">
+         <image>
+            <Image url="@../assets2/oct.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="wed_id" fitHeight="140.0" fitWidth="142.0" layoutX="828.0" layoutY="391.0" onMouseClicked="#wedClicked" onMouseEntered="#changeWedStyle" onMouseExited="#returnWedStyle" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../assets2/wed.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="sept_id" fitHeight="150.0" fitWidth="200.0" layoutX="844.0" layoutY="227.0" onMouseClicked="#septClicked" onMouseEntered="#changeSeptStyle" onMouseExited="#returnSeptStyle" pickOnBounds="true" preserveRatio="true" rotate="31.0">
+         <image>
+            <Image url="@../assets2/sept.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="april_ship" fitHeight="96.0" fitWidth="75.0" layoutX="60.0" layoutY="150.0" pickOnBounds="true" preserveRatio="true" rotate="-9.5" />
+      <ImageView fx:id="august_ship" fitHeight="96.0" fitWidth="75.0" layoutX="198.0" layoutY="20.0" pickOnBounds="true" preserveRatio="true" rotate="-24.8" />
+      <ImageView fx:id="may_ship" fitHeight="96.0" fitWidth="75.0" layoutX="60.0" layoutY="451.0" pickOnBounds="true" preserveRatio="true" rotate="-74.1" />
+      <ImageView fx:id="sat_ship" fitHeight="96.0" fitWidth="75.0" layoutX="720.0" layoutY="156.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="mon_ship" fitHeight="96.0" fitWidth="75.0" layoutX="351.0" layoutY="545.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="tue_ship" fitHeight="96.0" fitWidth="75.0" layoutX="568.0" layoutY="557.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="oct_ship" fitHeight="96.0" fitWidth="75.0" layoutX="994.0" layoutY="451.0" pickOnBounds="true" preserveRatio="true" rotate="10.9" />
+      <ImageView fx:id="mars_ship" fitHeight="96.0" fitWidth="75.0" layoutX="1203.0" layoutY="237.0" pickOnBounds="true" preserveRatio="true" rotate="23.2" />
+      <ImageView fx:id="dec_ship" fitHeight="96.0" fitWidth="75.0" layoutX="361.0" layoutY="-12.0" pickOnBounds="true" preserveRatio="true" rotate="-57.1" />
+      <ImageView fx:id="fri_ship" fitHeight="96.0" fitWidth="75.0" layoutX="980.0" layoutY="9.0" pickOnBounds="true" preserveRatio="true" rotate="63.4" />
+      <ImageView fx:id="jan_ship" fitHeight="96.0" fitWidth="75.0" layoutX="1127.0" layoutY="27.0" pickOnBounds="true" preserveRatio="true" rotate="17.1" />
+      <ImageView fx:id="sun_ship" fitHeight="96.0" fitWidth="75.0" layoutX="541.0" layoutY="296.0" pickOnBounds="true" preserveRatio="true" rotate="13.0" />
+      <ImageView fx:id="feb_ship" fitHeight="96.0" fitWidth="75.0" layoutX="743.0" layoutY="-11.0" pickOnBounds="true" preserveRatio="true" rotate="54.7" />
+      <ImageView fx:id="july_ship" fitHeight="96.0" fitWidth="75.0" layoutX="561.0" layoutY="111.0" pickOnBounds="true" preserveRatio="true" rotate="16.7" />
+      <ImageView fx:id="sept_ship" fitHeight="96.0" fitWidth="75.0" layoutX="931.0" layoutY="178.0" pickOnBounds="true" preserveRatio="true" rotate="21.8" />
+      <ImageView fx:id="june_ship" fitHeight="96.0" fitWidth="75.0" layoutX="334.0" layoutY="238.0" pickOnBounds="true" preserveRatio="true" rotate="12.5" />
+      <ImageView fx:id="nov_ship" fitHeight="96.0" fitWidth="75.0" layoutX="662.0" layoutY="334.0" pickOnBounds="true" preserveRatio="true" rotate="-8.7" />
+      <ImageView fx:id="wed_ship" fitHeight="96.0" fitWidth="75.0" layoutX="843.0" layoutY="319.0" pickOnBounds="true" preserveRatio="true" rotate="-9.1" />
+      <ImageView fx:id="flag_id" fitHeight="204.0" fitWidth="89.0" layoutX="14.0" layoutY="572.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../assets2/redflag.png" />
+         </image>
+         <effect>
+            <ColorAdjust brightness="0.2" contrast="0.43" hue="-0.07" saturation="0.26">
+               <input>
+                  <Bloom />
+               </input>
+            </ColorAdjust>
+         </effect>
+      </ImageView>
+      <ImageView fx:id="attack_id" fitHeight="80.0" fitWidth="140.0" layoutX="1120.0" layoutY="684.0" onMouseClicked="#attackClicked" onMouseEntered="#changeAttackStyle" onMouseExited="#returnAttackStyle" pickOnBounds="true" preserveRatio="true" visible="false">
+         <image>
+            <Image url="@../assets2/attack.png" />
+         </image>
+         <effect>
+            <ColorAdjust brightness="-0.1" hue="-0.58" />
+         </effect>
+      </ImageView>
+      <ImageView fx:id="choose_id" fitHeight="80.0" fitWidth="140.0" layoutX="964.0" layoutY="684.0" onMouseClicked="#chooseClicked" onMouseEntered="#changeChooseStyle" onMouseExited="#returnChooseStyle" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../assets2/choose.png" />
+         </image>
+         <effect>
+            <ColorAdjust brightness="-0.1" hue="-0.58" />
+         </effect>
+      </ImageView>
+      <ImageView fx:id="exit_id" fitHeight="61.0" fitWidth="89.0" layoutX="20.0" layoutY="17.0" onMouseClicked="#exitClicked" onMouseEntered="#changeExitStyle" onMouseExited="#returnExitkStyle" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../assets2/exit.png" />
+         </image>
+      </ImageView>
+      <TextField fx:id="input_id" layoutX="1090.0" layoutY="639.0">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </TextField>
+      <Label fx:id="inputLabel_id" layoutX="1091.0" layoutY="588.0" prefHeight="38.0" prefWidth="187.0" text="Enter here ..." />
+      <Label disable="true" layoutX="593.0" layoutY="714.0" text="Tue" textFill="WHITE" />
+      <Label disable="true" layoutX="1019.0" layoutY="653.0" text="Oct" textFill="WHITE" />
+      <Label disable="true" layoutX="836.0" layoutY="306.0" text="Sat" textFill="WHITE" />
+      <Label disable="true" layoutX="325.0" layoutY="451.0" text="June" textFill="WHITE" />
+      <Label disable="true" layoutX="537.0" layoutY="451.0" text="Sun" textFill="WHITE" />
+      <Label disable="true" layoutX="783.0" layoutY="134.0" text="Feb" textFill="WHITE" />
+      <Label disable="true" layoutX="956.0" layoutY="160.0" text="Fri" textFill="WHITE" />
+      <Label disable="true" layoutX="1188.0" layoutY="242.0" text="Jan" textFill="WHITE" />
+      <Label disable="true" layoutX="376.0" layoutY="714.0" text="Mon" textFill="WHITE" />
+      <Label disable="true" layoutX="745.0" layoutY="558.0" text="Nov" textFill="WHITE" />
+      <Label disable="true" layoutX="881.0" layoutY="547.0" text="Wed" textFill="WHITE" />
+      <Label disable="true" layoutX="1175.0" layoutY="498.0" text="Mars" textFill="WHITE" />
+      <Label disable="true" layoutX="1009.0" layoutY="306.0" text="Sept" textFill="WHITE" />
+      <Label disable="true" layoutX="164.0" layoutY="614.0" text="May" textFill="WHITE" />
+      <Label disable="true" layoutX="566.0" layoutY="117.0" prefHeight="21.0" prefWidth="40.0" text="Dec" textFill="WHITE" />
+      <Label disable="true" layoutX="181.0" layoutY="171.0" text="August" textFill="WHITE" />
+      <Label disable="true" layoutX="52.0" layoutY="424.0" text="April" textFill="WHITE" />
+      <Label disable="true" layoutX="606.0" layoutY="286.0" text="July" textFill="WHITE" />
+      <Label fx:id="bonusLabel" layoutX="753.0" layoutY="706.0" prefHeight="38.0" prefWidth="209.0" text="Choose a planet to be bonused" textFill="WHITE" />
+   </children>
+   <effect>
+      <Bloom threshold="0.9">
+         <input>
+            <Glow />
+         </input>
+      </Bloom>
+   </effect>
+</AnchorPane>

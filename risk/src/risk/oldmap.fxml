@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.effect.Glow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane id="AnchorPane" prefHeight="800.0" prefWidth="1300.0" style="-fx-background-color: #C2DFFF;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="risk.MapController">
+   <children>
+      <ImageView fx:id="washin_id" cache="true" fitHeight="107.0" fitWidth="107.0" layoutX="21.0" layoutY="46.0" pickOnBounds="true" preserveRatio="true" rotate="10.0">
+         <image>
+            <Image url="@../assets/washinblue.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="oregon_id" fitHeight="89.0" fitWidth="89.0" layoutX="20.0" layoutY="168.0" pickOnBounds="true" preserveRatio="true" rotate="10.0">
+         <image>
+            <Image url="@../assets/oregonblue.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="california_id" fitHeight="130.0" fitWidth="130.0" layoutX="10.0" layoutY="294.0" pickOnBounds="true" preserveRatio="true" rotate="10.0">
+         <image>
+            <Image url="@../assets/californiablue2.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="idaho_id" fitHeight="110.0" fitWidth="110.0" layoutX="113.0" layoutY="95.0" pickOnBounds="true" preserveRatio="true" rotate="10.0">
+         <image>
+            <Image url="@../assets/idahoblue.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="nevada_id" fitHeight="90.0" fitWidth="90.0" layoutX="96.0" layoutY="210.0" pickOnBounds="true" preserveRatio="true" rotate="10.0">
+         <image>
+            <Image url="@../assets/nevadablue.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="montana_id" fitHeight="100.0" fitWidth="100.0" layoutX="158.0" layoutY="71.0" pickOnBounds="true" preserveRatio="true" rotate="10.0">
+         <image>
+            <Image url="@../assets/montanablue.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="wyoming_id" fitHeight="80.0" fitWidth="80.0" layoutX="192.0" layoutY="144.0" pickOnBounds="true" preserveRatio="true" rotate="10.0">
+         <image>
+            <Image url="@../assets/wyomingblue.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="utah_id" fitHeight="80.0" fitWidth="80.0" layoutX="168.0" layoutY="203.0" pickOnBounds="true" preserveRatio="true" rotate="10.0">
+         <image>
+            <Image url="@../assets/utahblue.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="arizona_id" fitHeight="80.0" fitWidth="80.0" layoutX="153.0" layoutY="273.0" pickOnBounds="true" preserveRatio="true" rotate="10.0">
+         <image>
+            <Image url="@../assets/arizonablue.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="colorado_id" fitHeight="80.0" fitWidth="80.0" layoutX="234.0" layoutY="215.0" pickOnBounds="true" preserveRatio="true" rotate="7.0">
+         <image>
+            <Image url="@../assets/coloradoblue.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="ndakota_id" fitHeight="80.0" fitWidth="80.0" layoutX="270.0" layoutY="90.0" pickOnBounds="true" preserveRatio="true" rotate="7.0">
+         <image>
+            <Image url="@../assets/ndakotablue.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="sdakota_id" fitHeight="80.0" fitWidth="80.0" layoutX="270.0" layoutY="152.0" pickOnBounds="true" preserveRatio="true" rotate="2.0">
+         <image>
+            <Image url="@../assets/sdakotablue.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="newmex_id" fitHeight="80.0" fitWidth="80.0" layoutX="216.0" layoutY="285.0" pickOnBounds="true" preserveRatio="true" rotate="10.0">
+         <image>
+            <Image url="@../assets/newmexblue.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="nebraska_id" fitHeight="80.0" fitWidth="80.0" layoutX="311.0" layoutY="205.0" pickOnBounds="true" preserveRatio="true" rotate="10.0">
+         <image>
+            <Image url="@../assets/nebraskablue.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="kansas_id" fitHeight="70.0" fitWidth="70.0" layoutX="320.0" layoutY="256.0" pickOnBounds="true" preserveRatio="true" rotate="8.0">
+         <image>
+            <Image url="@../assets/kansasblue.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="oklahoma_id" fitHeight="70.0" fitWidth="70.0" layoutX="310.0" layoutY="303.0" pickOnBounds="true" preserveRatio="true" rotate="8.0">
+         <image>
+            <Image url="@../assets/oklahomablue.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="texas_id" fitHeight="120.0" fitWidth="120.0" layoutX="245.0" layoutY="323.0" pickOnBounds="true" preserveRatio="true" rotate="10.0">
+         <image>
+            <Image url="@../assets/texasblue.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="minnesota_id" fitHeight="100.0" fitWidth="100.0" layoutX="347.0" layoutY="101.0" pickOnBounds="true" preserveRatio="true" rotate="2.0">
+         <image>
+            <Image url="@../assets/minnesotablue.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="lowa_id" fitHeight="80.0" fitWidth="80.0" layoutX="375.0" layoutY="184.0" pickOnBounds="true" preserveRatio="true" rotate="4.0">
+         <image>
+            <Image url="@../assets/lowablue.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="missouri_id" fitHeight="80.0" fitWidth="80.0" layoutX="395.0" layoutY="251.0" pickOnBounds="true" preserveRatio="true" rotate="6.0">
+         <image>
+            <Image url="@../assets/missouriblue.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="arkansas_id" fitHeight="75.0" fitWidth="75.0" layoutX="385.0" layoutY="317.0" pickOnBounds="true" preserveRatio="true" rotate="6.0">
+         <image>
+            <Image url="@../assets/arkansasblue.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="louisiana_id" fitHeight="75.0" fitWidth="75.0" layoutX="360.0" layoutY="378.0" pickOnBounds="true" preserveRatio="true" rotate="7.0">
+         <image>
+            <Image url="@../assets/louisianablue.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="wisconsin_id" fitHeight="90.0" fitWidth="90.0" layoutX="421.0" layoutY="131.0" pickOnBounds="true" preserveRatio="true" rotate="-5.0">
+         <image>
+            <Image url="@../assets/wisconsinblue.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="illinois_id" fitHeight="90.0" fitWidth="90.0" layoutX="435.0" layoutY="227.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../assets/illinoisblue.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="indiana_id" fitHeight="80.0" fitWidth="80.0" layoutX="494.0" layoutY="227.0" pickOnBounds="true" preserveRatio="true" rotate="-2.0">
+         <image>
+            <Image url="@../assets/indianablue.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="ohio_id" fitHeight="80.0" fitWidth="80.0" layoutX="558.0" layoutY="215.0" pickOnBounds="true" preserveRatio="true" rotate="-3.0">
+         <image>
+            <Image url="@../assets/ohioblue.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="pennsylvania_id" fitHeight="90.0" fitWidth="90.0" layoutX="825.0" layoutY="234.0" pickOnBounds="true" preserveRatio="true" rotate="-4.0">
+         <image>
+            <Image url="@../assets/pennsylvaniablue.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="michigan_id" fitHeight="90.0" fitWidth="90.0" layoutX="713.0" layoutY="130.0" pickOnBounds="true" preserveRatio="true" rotate="-4.0">
+         <image>
+            <Image url="@../assets/michiganblue.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="alaska_id" fitHeight="120.0" fitWidth="120.0" layoutX="81.0" layoutY="482.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../assets/alaskablue.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="newyork_id" fitHeight="107.0" fitWidth="107.0" layoutX="883.0" layoutY="121.0" pickOnBounds="true" preserveRatio="true" rotate="-4.0">
+         <image>
+            <Image url="@../assets/newyorkblue.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="vermont_id" fitHeight="98.0" fitWidth="98.0" layoutX="1010.0" layoutY="118.0" pickOnBounds="true" preserveRatio="true" rotate="-4.0">
+         <image>
+            <Image url="@../assets/vermontblue.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="hampshire_id" fitHeight="88.0" fitWidth="88.0" layoutX="1105.0" layoutY="123.0" pickOnBounds="true" preserveRatio="true" rotate="-4.0">
+         <image>
+            <Image url="@../assets/hampshireblue.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="maine_id" fitHeight="107.0" fitWidth="107.0" layoutX="1178.0" layoutY="84.0" pickOnBounds="true" preserveRatio="true" rotate="-5.0">
+         <image>
+            <Image url="@../assets/maineblue.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="mass_id" fitHeight="93.0" fitWidth="93.0" layoutX="1027.0" layoutY="221.0" pickOnBounds="true" preserveRatio="true" rotate="-3.0">
+         <image>
+            <Image url="@../assets/massblue.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="connecticut_id" fitHeight="98.0" fitWidth="98.0" layoutX="1010.0" layoutY="315.0" pickOnBounds="true" preserveRatio="true" rotate="-3.0">
+         <image>
+            <Image url="@../assets/connecticutblue.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="rhode_id" fitHeight="85.0" fitWidth="85.0" layoutX="1107.0" layoutY="329.0" pickOnBounds="true" preserveRatio="true" rotate="-6.0">
+         <image>
+            <Image url="@../assets/rhodeblue.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="kentucky_id" fitHeight="100.0" fitWidth="100.0" layoutX="493.0" layoutY="271.0" pickOnBounds="true" preserveRatio="true" rotate="3.0">
+         <image>
+            <Image url="@../assets/kentuckyblue.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="tennesse_id" fitHeight="110.0" fitWidth="110.0" layoutX="459.0" layoutY="313.0" pickOnBounds="true" preserveRatio="true" rotate="3.0">
+         <image>
+            <Image url="@../assets/tennesseblue.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="missi_id" fitHeight="80.0" fitWidth="80.0" layoutX="410.0" layoutY="385.0" pickOnBounds="true" preserveRatio="true" rotate="3.0">
+         <image>
+            <Image url="@../assets/missiblue.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="alabama_id" fitHeight="80.0" fitWidth="80.0" layoutX="535.0" layoutY="593.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../assets/alabamablue.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="georgia_id" fitHeight="90.0" fitWidth="90.0" layoutX="632.0" layoutY="604.0" pickOnBounds="true" preserveRatio="true" rotate="-2.0">
+         <image>
+            <Image url="@../assets/georgiablue.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="wvirginia_id" fitHeight="103.0" fitWidth="103.0" layoutX="770.0" layoutY="364.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../assets/wvirginiablue.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="virginia_id" fitHeight="120.0" fitWidth="120.0" layoutX="810.0" layoutY="457.0" pickOnBounds="true" preserveRatio="true" rotate="-4.0">
+         <image>
+            <Image url="@../assets/virginiablue.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="ncarolina_id" fitHeight="105.0" fitWidth="116.0" layoutX="787.0" layoutY="550.0" pickOnBounds="true" preserveRatio="true" rotate="-5.0">
+         <image>
+            <Image url="@../assets/ncarolinablue.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="scarolina_id" fitHeight="90.0" fitWidth="90.0" layoutX="746.0" layoutY="647.0" pickOnBounds="true" preserveRatio="true" rotate="-5.0">
+         <image>
+            <Image url="@../assets/scarolinablue.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="delware_id" fitHeight="85.0" fitWidth="85.0" layoutX="972.0" layoutY="434.0" pickOnBounds="true" preserveRatio="true" rotate="-3.0">
+         <image>
+            <Image url="@../assets/delwareblue.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="maryland_id" fitHeight="82.0" fitWidth="82.0" layoutX="879.0" layoutY="359.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../assets/marylandblue.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="jersey_id" fitHeight="94.0" fitWidth="94.0" layoutX="923.0" layoutY="251.0" pickOnBounds="true" preserveRatio="true" rotate="-6.0">
+         <image>
+            <Image url="@../assets/jerseyblue.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="florida_id" fitHeight="80.0" fitWidth="80.0" layoutX="617.0" layoutY="692.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../assets/floridablue.png" />
+         </image>
+      </ImageView>
+   </children>
+   <effect>
+      <Glow level="0.41" />
+   </effect>
+</AnchorPane>
